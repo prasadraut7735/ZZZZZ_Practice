@@ -17,7 +17,6 @@ public class LoginPage {
 	private final By fgtPwd = By.linkText("Forgotten Password");
 	private final By registerLink = By.linkText("Register");
 
-	public static final Logger logger = LogManager.getLogger(LoginPage.class);
 
 	public LoginPage(WebDriver driver) {
 		this.driver = driver;
