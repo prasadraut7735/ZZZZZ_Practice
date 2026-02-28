@@ -1,0 +1,80 @@
+# Ignore Allure Test Results and Screenshots
+allure-results/
+screenshots/
+screenshot/
+test-output/
+build/
+reports/
+logs/
+
+# Ignore specific log file
+opencart.log
+
+##############################
+## Java
+##############################
+
+# Ignore temporary Java files and class files
+.mtj.tmp/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+activityLog.log
+
+##############################
+## Maven
+##############################
+
+# Ignore Maven build directories and related files
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+pom.xml.bak
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+##############################
+## IntelliJ
+##############################
+
+# Ignore IntelliJ IDEA files and directories
+out/
+.idea/
+.idea_modules/
+*.iml
+*.ipr
+*.iws
+
+##############################
+## Eclipse
+##############################
+
+# Ignore Eclipse workspace and project files
+.settings/
+bin/
+tmp/
+.metadata
+.classpath
+.project
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.loadpath
+.factorypath
+
+## OS X
+##############################
+
+# Ignore macOS specific files
+.DS_Store
+
